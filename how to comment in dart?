@@ -1,4 +1,6 @@
 void main(){
-// to comments for users we have to use "double forward shlash, independent of location.
+// to comments for users we have to use "double forward shlash for single line comment, independent of location.
 printf("HelloWorld");
 }
+/* and for paragrapg comment
+use a slash with a star behind shlash*/
