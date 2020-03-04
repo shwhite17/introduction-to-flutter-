@@ -1,0 +1,38 @@
+
+1. // how to use break statement 
+
+void main(){
+
+outerloop: for(int i=1; i<=3; i++){   // we name it as per need
+ 
+for(int j=1; j<=3; j++){
+printf("$i $j");
+
+if(i==2 && j==2){
+break outerloop;  // break the loop is depend on us  
+}
+}
+}
+}
+
+2. sign "$" is used in dart in place os "&" in c programming language
+3. " ; " is applied at the end of line.
+
+
+4. // how to use continue statement
+
+void main(){
+
+outer: for (int i=1; i<= 10; i++){
+
+for(int j=1; j<=3; j++){
+if (i==2 && j==2){
+continue outer;
+}
+print("$i $j");
+//even number skiped
+}
+}
+}
+
+
