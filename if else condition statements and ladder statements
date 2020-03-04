@@ -1,0 +1,34 @@
+// if else condition statements
+
+void main(){
+var salary= 25000;
+if(salary>25000){
+print("you got promotion.congo!");
+}
+else
+{
+print("you have to workhard");
+}
+
+// if else if ladder statements
+
+var marks = 70;
+ if (marks>=90 && marks<100){
+ print("A+ grade");
+ }else if(marks>= 80 && marks< 90){
+ print("A grade");
+ }else if(marks>=70 && marks<80){
+ print("B grade");
+ }else if(marks>=60 && marks<70){
+ print("c grade");
+ }else if(marks>=50 && marks<60){
+ print("D grade");
+ }else if(marks<40){
+ print("fails");
+ }else{
+ print("invalid marks");
+ }
+ 
+ }
+ 
+ 
