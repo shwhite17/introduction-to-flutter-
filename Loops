@@ -1,0 +1,27 @@
+// LOOPS
+// let us take an example of "HelloWorld". to print it 100 times.
+
+void main(){
+
+1.//for loop 
+/*for(var i=0; i<400; i++){
+print("HelloWorld");
+} */
+
+2.//for while loop
+/* while(i<400){
+print("HelloWorld");
+i++
+}*/
+
+3.//for do while loop
+/*
+do{
+print("HelloWorld");
+i++;
+}
+while(i<400);
+*/
+
+}
+// so yes above any one code can be apply to get 400 time " HelloWorld ". Happy COding
