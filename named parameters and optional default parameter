@@ -1,0 +1,31 @@
+void main(){
+ findVolume(10, breadth: 5, heigth: 20);
+ }
+ 
+ int findVolume(int length,int breadth, {int heigth}) {
+ 
+ print("length is $length");
+ print("Breadth is $breadth");
+ print("Height is $height");
+  print("volume is ${length*breadth*heigth}");
+  }
+  
+  
+  // in dart you can assige default values to parameters
+void main(){
+ findVolume(10);
+ print(""");
+ findVolume(10,  breadth: 5 ,height: 50);
+ findVolume(10, height: 30; breadth: 5);
+ print("");
+ }
+ 
+ int findVolume(int length,{int breadth=2, int heigth=20}) {
+ 
+ print("length is $length");
+ print("Breadth is $breadth");
+ print("Height is $height");
+  print("volume is ${length*breadth*heigth}");
+  }
+  
+  
