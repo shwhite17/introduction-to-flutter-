@@ -1,0 +1,24 @@
+/* parametre are of two types-
+    a. required
+    b.optional - (i) positional
+                  (ii)Named
+                  (iii) Default
+     */
+     
+     void main(){
+      printCities("New York", "New Delhi", "Sydney");
+      print("");
+      printCountries("India", "Russsia", "USA");
+      }
+      void printCities(String name1, String name2, String name3){
+      printf("Name 1 is $name1");
+        printf("Name 2 is $name2");
+        printf("Name 3 is $name3");
+      }
+      
+       void printCountries(String name1, String name2, String name3){
+      printf("Name 1 is $name1");
+        printf("Name 2 is $name2");
+        printf("Name 3 is $name3");
+      }
+      
