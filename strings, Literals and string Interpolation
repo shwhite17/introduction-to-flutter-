@@ -1,0 +1,23 @@
+// strings, Literals and string Interpolation
+
+void main(){
+true; 2; "shwhite"; 4.5; // literals
+
+// various ways to create string literals, in dart we are independent to use single or double quotes
+string s1= 'single quotes';
+string s2= "double quotes"; 
+string s3= 'it\'s easy';
+string s4= "it's easy";
+
+// string interpolation 
+string name="Shweta";
+string message= "my name is $name";  
+print(message) ;        // or simply we can use print("my name is $name");
+
+print("The number of character in string Shweta is " + name.length.toString());
+       // or print("The number  of character in string Shweta is ${name.length}");
+
+int a=3;
+int b=4;
+print("sum of $a and $b is ${a+b}");
+
