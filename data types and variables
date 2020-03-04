@@ -21,4 +21,4 @@ double percentage= 99.9;         //numbers: double
 string name="Shweta" ;               //string
 bool isvalid = true;                    //boolean
 var isAlive= false;
-
+}
