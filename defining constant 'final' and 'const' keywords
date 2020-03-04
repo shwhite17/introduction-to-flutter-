@@ -1,0 +1,24 @@
+/*  if you never wants to change the value then use final and const keywords 
+. final name="peter";
+. const PI = 3.14;
+
+--> Difference between final and const 
+. final variable can only be set once and it is initialised when accessed.
+. const variable is implicitly final but it is a compile-time constant 
+--> i.e. it is initialized during compilation
+*/
+
+
+//code 
+
+void main(){
+final cityName="Lucknow";  //final keywords
+final string countryName="India";
+
+const PI= 3.14;
+const double gravity = 9.8; // const keywords
+}
+ class cirlce{
+ final color ='red';
+ static const PI='3.14';
+}
