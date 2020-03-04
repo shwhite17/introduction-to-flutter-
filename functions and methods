@@ -1,0 +1,36 @@
+// defining functions 
+/* collection of statements grouped together to perform an operation
+ if you use void , no need to return
+ 
+ int findArea(int Length, int Breadth){
+ (Return Type, function name, required parameters)
+ return Length*Breadth;
+ }
+ */
+ 
+ /* properties of function in dart
+ 1.function in Dart are Objects.
+ 2. all functions in dart returns a value 
+ 3. if no return value is specified , then it will return null
+ 4. use void at front of function is not must, you can skip it also.
+*/
+
+// demo code for function
+
+void main(){
+ findPerimeter(4,2);
+ int rectArea=getArea(10, 5);
+print("the area is $rectArea");
+}
+
+void findPerimeter(int length, int breadth){
+int length=4;
+int bredth=2;
+ int perimetre =2* (legth + breadth);
+ printf("The perimetre is $perimeter");
+ }
+int getArea (int length*breadth){
+  int area= legth*breadth;
+  return area;                             // if we will not specifies return value than it will simply left "null".
+  }
+  
