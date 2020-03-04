@@ -1,0 +1,24 @@
+// data types and variables declaration
+/* dart has special support for these types 
+1. numbers
+  a. int 
+  b. double
+2. Strings
+3. Booleans
+4.Lists (also known as Arrays)
+5.Maps
+6. Runes (for expressing Unicode characters in a string)
+7. Symbols
+
+ALL DATA TYPES IN DART ARE OBJECT. THUS , VALUES BY DEFAULT IS "NULL".  */
+
+
+// DECLARATION
+
+void main(){
+   int score = 23;                //numbers : int 
+double percentage= 99.9;         //numbers: double
+string name="Shweta" ;               //string
+bool isvalid = true;                    //boolean
+var isAlive= false;
+
