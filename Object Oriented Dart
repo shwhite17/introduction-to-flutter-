@@ -1,0 +1,66 @@
+// definig class and objects
+
+void main(){
+var student1= new student(23, "shweta");
+student1.id=23;
+student1.name="shweta";
+print("${student1.id} and $(student1.name}");
+
+student1.study();
+student1.sleep();
+
+
+var student2 = student(45, "saurabh");
+student2.id =45;
+student2.name="saurabh";
+print("${student2.id} and ${student2.name}");
+student2.study();
+student2.sleep();
+
+var student3 = Student.myCustomConstructor();
+student3.id=54;
+student3.name="Rahul";
+print("${student3.id} and ${student3.name}");
+ 
+ var student4= Student.myAnotherNamedConstructor(87,"Paul");
+ print("${student2.id} and ${student3.name}");
+
+}
+
+// defining states
+
+class student {
+int id=-1;
+String name;
+
+ student(this.id, this.name);
+ 
+student.mycustomConstructor(){
+print("This is my custom constructor");
+}
+student.myAnotherNameConstructor(this.id, this.name);
+
+
+void study(){
+print("${this.name} is now studying");
+}
+void sleep(){
+print("${this.name} is now sleeping");
+}
+
+}
+
+
+// objective 
+//1.Default Construction
+//2. Parameter Constructor
+//3. Named Constructor
+//4.Constant constructor
+
+
+//properties of constructors
+
+1. used to create objects
+2.you can initialize your instance or field variable within constructors.
+3.you cannot have both default and parameterized constructors at the same time
+4. you can have as many Named constructors as you want to
