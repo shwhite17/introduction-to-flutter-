@@ -1,0 +1,23 @@
+// exploring method overriding
+
+void main(){
+ var dog= Dog();
+ dog.eat();
+ 
+ print(dog.color);
+}
+
+class Animal{
+String color: "brown" ;
+void cat(){
+print("Animal is eating!");
+}}
+class Dog extends Animal{
+String breed;
+string color="black";
+void bark(){
+print("bark!");
+}
+void eat(){
+print{"Dog is eating!");
+super.eat();
