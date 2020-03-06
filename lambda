@@ -1,0 +1,33 @@
+// Lamdas
+/* a function without name 
+also known as anonymous  function or lambda
+
+--as we know  a function in Dart is a object
+int sum=2;
+String message= "Hello";
+Function addNumbers=// some value;
+*/
+
+void main(){
+Function addTwoNumbers = (int a, int b){
+          var sum= ;
+          print(sum);
+          };
+          
+  var multiplyByFour = (int number){
+   return number*4;
+   };
+   
+   //lambda
+   Function addNumber= (int a, int b)=>print(a+b);
+            
+  var multiplyByFour = (int number)=>number*4;
+   //calling lambda fuction
+   addTwoNumbeer(2,5);
+ prin( multipleByFour(5));
+}
+
+void addMyNumbers(int a, int b){
+var sum= a+b;
+print(sum);
+}
