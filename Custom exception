@@ -1,0 +1,29 @@
+//custom handling
+
+//create our own custom exception
+
+void main(){   //case 5 custom exception
+try{
+
+}
+
+class DepositException implements Exception{
+String errorMessage(){
+try{
+depositeMoney(-200);
+}catch (e){
+print(e.errorMessage());
+}
+}
+
+class DepositeException implemets Exception {
+String errorMessage(){
+return "you cannot enter amount less than 0;
+}
+}
+
+void depositMoney(int amount){
+if(amount<0){
+throw new DepositException();
+}
+}
