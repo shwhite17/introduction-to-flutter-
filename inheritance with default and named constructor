@@ -1,0 +1,35 @@
+//1. Inheritance with default Constructor and parameterize constructor
+//2. Inheritance with Named Construcctor
+
+void main(){
+
+var dog1= Dog("digi, black");
+print("");
+
+var2 dog2=Dog("miki, brown");print("");
+var dog3=Dog3= Dog.myNamedConstructor( "German shepherd", "Black-brown");
+}
+
+class Animal{
+string color;
+Animal( string color){
+print("Animal class construction");
+
+}
+
+Animal.myAnimalNamedConstructor(){
+print("Animal class named constructor");
+}
+}
+class Dog extends Animal{
+ string breed;
+
+ Dog( string breed, string color): super(color)  {
+ this.breed= breed;
+ print("Dog class constructor");
+ }
+ Dog.myNmaedConstructor(string breed, string color): super.myAnimalNamedConstructor(color){
+ this.breed = breed;
+ print("Dog class Named Constructor");
+ }
+ }
