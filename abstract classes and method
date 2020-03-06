@@ -1,0 +1,43 @@
+//abstract method
+//abstract classes
+
+void main(){
+ var rectangle= Rectangle();
+ rectangle.draw();
+ 
+ var circle= Circle();
+ circle.draw();
+}
+
+abstract class Shape {
+int x;
+int y;
+void draw();
+void myNormalFunction(){
+
+}
+}
+
+class Rectangle extends Shape {
+
+void test();
+
+ void draw(){
+ print("Drawing Rectangle...........");
+ }
+}
+
+class Circle extends shape {
+void draw(){
+print("Drawing Circle................");
+
+
+/* Abstract Method
+1. To make a method abstract, use semicolon (;) instead of method body
+2. Abstract method can only xist with Abstract class
+3. you need to override abstarct method in asub-class
+
+abstarct class
+1.use abstract keyword to dclare Abstract Class
+2. Abstract class can have Abstract Methods, Normal Methods And Instance Variables as well
+3.The ABstract Class cannot be instantiated, you cannot create objects
