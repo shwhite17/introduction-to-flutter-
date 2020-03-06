@@ -1,0 +1,32 @@
+//theory
+
+/* closure is a special function
+within a clodure you can mutate the value of variables present in the parent scope
+
+in java 8, we are not allowed to modify parent scope variables
+*/
+
+
+void main(){
+string="Dart is good";
+
+Function showMessage=(){
+message = "Dart is  awesome
+};
+
+ShowMessage();
+
+
+
+Fuction talk=(){
+String msg="hi";
+
+Function say=(){
+msg="hello";
+print(msg);
+};
+return say;
+};
+Function speak = talk();
+speak();
+}
