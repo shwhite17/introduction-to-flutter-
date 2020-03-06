@@ -1,0 +1,63 @@
+//growable List
+void main(){list
+List<int> numberList=List(5);
+numberList.add(73);
+numberList.add(64);
+numberList.add(21);
+numberList.add(12);
+print("\n");
+numberList[0]=99;
+numberList[1]=null;
+
+print(numberList[0]);
+print("\n");
+for(int elemnts in numberList){
+print(element);print("\n");
+}
+numberList.forEach((element)=>print(element));
+ for (int i=0; i<numberList.length; i++0{
+ print(numbersList[i]0;print("\n");
+ }
+
+
+void main(){
+List<int> numberList=List(5);
+numberList[0]=73;
+numberList[1]=64;
+numberList[2]=21;
+numberList[3]=12;
+print("\n");
+numberList[0]=99;
+numberList[1]=null;
+
+print(numberList[0]);
+print("\n");
+for(int elemnts in numberList){
+print(element);print("\n");
+}
+numberList.forEach((element)=>print(element));
+ for (int i=0; i<numberList.length; i++0{
+ print(numbersList[i]0;print("\n");
+ }
+
+
+void main(){
+List<int> numberList=List(5);
+numberList[0]=73;
+numberList[1]=64;
+numberList[2]=21;
+numberList[3]=12;
+print("\n");
+numberList[0]=99;
+numberList[1]=null;
+
+print(numberList[0]);
+print("\n");
+for(int elemnts in numberList){
+print(element);print("\n");
+}
+numberList.forEach((element)=>print(element));
+ for (int i=0; i<numberList.length; i++0{
+ print(numbersList[i]0;print("\n");
+ }
+
