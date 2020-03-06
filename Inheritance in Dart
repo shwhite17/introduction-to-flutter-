@@ -1,0 +1,61 @@
+/*  defination
+Inheritance is the mechanism in which one ibject acquires properties of its parent class object
+
+super class of any class is object :
+1.  provides default implementation of:
+-> toString(), returns the String representation of the object
+->hashcode Getter, returns the hash code of an object
+->operator==, to compare two objects
+
+advantages:
+   code reusability
+   method overriding
+   cleaner code: no repetition 
+   */
+   
+   // exploring inheritance
+   
+   void main(){
+   
+   var dog=Dog();
+   dog.breed= "Labrador";
+   dog.color="Black";
+   dog.eat();
+   
+   var cat =Cat();
+   cat.color="white";
+   cat.age=6;
+   cat.eat();
+   catmeow();
+   
+   var animal = Animal();
+   animal.color= "Brown";
+   animal.eat();
+   }
+   
+   class Animal{
+    String color;
+     void eat(){
+  print("Eat !");
+  }
+   
+   class Dog extends Animal {
+ 
+  String breed;
+  
+  void bark(){
+  print("Bark !");
+  }
+  
+
+   
+ }
+ 
+ class Cat extends Animal {
+ 
+ int age;
+ 
+ void meow(){
+ print("Meow !");
+ }
+ }
