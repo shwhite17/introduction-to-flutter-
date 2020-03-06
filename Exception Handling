@@ -1,0 +1,47 @@
+// how to perform exception handling
+/* 1.on clause
+2. catch clause with exception object.
+3.catch clause with exception object and stacktrace object.
+4. finally clause.
+5.create our custom exception
+
+void main(){
+
+print("CASE 1");
+try{
+int result = 12 ~/ 0; 
+print("The result is $result");
+}on IntergerDivisionByZeroException{
+print("Cannot divide by Zero");
+}
+
+print("");
+print("CASE 2");
+try{
+int result = 12 ~/ 0; 
+print("The result is $result");
+}catch (e) {
+print("the exception thrown is $e");
+}
+
+print("");
+print("CASE 3");
+try{
+int result = 12 ~/ 0; 
+print("The result is $result");
+}catch (e, s) {
+print("the exception thrown is $e");
+print("STACK TRACE \n $s");
+}
+
+print("");
+print("CASE 4");
+try{
+int result = 12 ~/ 3; 
+print("The result is $result");
+}catch (e) {
+print("the exception thrown is $e");
+}finally{
+print("This is finally clause and is always executed.");
+}
+}
