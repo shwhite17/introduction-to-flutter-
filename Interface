@@ -37,4 +37,13 @@ class Remote(){
  void justAnotherMethod(){
  
  print(" Some code ");
+ }
+ 
+ //theory
+ /*1. Dart does not have  special syntax to Declare Interface
+ 2. An interface in dart is a normal class 
+ 3,  An interface is used when you need concrete implementation of all its functions within it's  sub class
+ 4.it is mendatory to overide all methods in the implementing class 
+ 5. you can implementation multiple class but
+ 6. you cannot extend multiple cLASS during inheritances
  
