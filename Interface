@@ -1,0 +1,40 @@
+// Interface
+
+void main(){
+
+var tv= Television();
+tv.volumeUp();
+tv.volumeDown();
+}
+
+class Remote(){
+
+ void volumeUp(){
+ print("__ volume up frome remote__");
+ }
+ void volumeDown(){
+ print("__ volume down frome remote__");
+ }
+ }
+ 
+ class AnotherClass {
+ void justAnotherMethod(){
+ 
+ }
+ } 
+ 
+ // remote act as interface
+ class Television implements Remote, AnotherClass, moreclass{
+ 
+ void volumeUp(){
+ print("__volume Up from Television__");
+ }
+ 
+  void volumeDown(){
+ print("__volume Down from Television__");
+ }
+ 
+ void justAnotherMethod(){
+ 
+ print(" Some code ");
+ 
