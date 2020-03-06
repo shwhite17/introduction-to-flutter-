@@ -1,0 +1,49 @@
+// static methods and variables
+
+void main(){
+
+ var circle = Circle();
+ circle.pi;
+ 
+ var circle2= Circle;
+ circle2.pi;
+ 
+ print(Circle.pi);
+ 
+ 
+ Circle.pi;
+  Circle.pi;
+}
+
+class Circle{
+static const double pi = 3.14;
+static int maxRadius=S;
+string color;
+
+static void calculateArea(){
+print("Some code to calculate area  of Circle");
+}
+
+void myNormalFuction(){
+circle.calculateArea();
+this.color="red";
+print(pi);
+maxRadius;
+}
+}
+
+
+//theory
+/* 1. static variables are also known as Class Variables
+2. static methods are also known as Class methods
+3.static variables are lazyly initialized
+  they are not initialixed until they are used in program
+  so they consume memory only  when they are used
+  
+  static methods has nothing  to do with class object or instance 
+  you cannot use this keywords within a static methods
+  
+  from a static method
+  you can only access static method and static variables
+  but you cannot access normal instance variable and methods of the class
+  */
