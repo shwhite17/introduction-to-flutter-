@@ -1,0 +1,23 @@
+//1.Default getter and setter
+//2.custom getter and setter
+//3.private instance variable
+
+void main(){
+
+var student = student();
+student.name= "peter";  // calling default setter to set value 
+print(student.name);   // calling default getter to get value
+
+student.percentage= 438;
+print(student.percentage);
+}
+class student {
+String name:   // Instance variable with default getter and setter
+
+double_percent;    // Instance variable with default getter and setter
+ 
+void set percentage(double_marksSecured){           // Instance variable with default setter
+_percent =(marsSecured ~/ 500)* 100;
+} 
+double get percentage=>  _percent;                // Instance variable with default getter 
+}
