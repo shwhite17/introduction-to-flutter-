@@ -1,0 +1,24 @@
+
+//Higher order function
+/* 1. can accept function as a parameter
+2. can return a function
+3. or can do both
+*/
+
+void main(){
+Function addNUmber=(a,b)=>print(a+b);
+SomeOtherFunction("Hell", addNumber);
+
+ var myFunc=taskToPerform();
+ myFunc(10)
+}
+void SomeOtherFunction (String message, Function myFunction){
+
+print(message)
+myFunction(2,4);
+}
+
+function taskToPerform(){
+Function multiplyFour= (int number)=>number*4;
+return multiplyfour;
+}
