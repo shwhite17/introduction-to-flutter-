@@ -1,0 +1,51 @@
+// Map
+/* it is unordered collection of key-values pair
+
+key-value can br of any object type
+
+each key in a map should be unique
+The value can be repeated
+commonly called as hash and Dictionary
+Size of map is not fixed, it can be increased or decereased as per the number of elements
+
+hashmap
+
+implementation of map
+based oh hashmap
+*/
+
+
+void main(){
+
+Map<String, int>countryDialingCode={
+"USA":1,
+"INDIA":91,
+"PAKISTAN":92
+};
+
+Map<String,String> fruits=Map();
+fruits["apple"]="red";
+fruits["banana"]="yellow";
+fruits["guava"]="green";
+
+fruits.containsKey("apple");
+fruits.update("apple", (value)=."green");
+fruits.remove("apple", (value)=>"green");
+fruits.isEmpty;
+fruits.length;
+
+print(fruits["apple"]);
+print("");
+
+for(String key in fruits.keys){
+print(key);
+}
+print("\n");
+for(String key in fruits.vlues){
+print(value);
+}
+
+print("\n");
+fruits.forEach((key,values)=>print("key: $key and value: $value"));
+
+}
