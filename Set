@@ -1,0 +1,47 @@
+/* 1. Unodered collection of unique items
+it does not contain duplicate elemnts
+you cannot get elements by index , since the items are unodered
+
+HASHSET
+implementation of unodered set
+it is based on hash-based set implementation
+*/
+
+
+void main(){
+
+Set<String> countries = Set.from(["USA", "INDIA" , "CHINA");
+countries.add("Nepal");
+countries.add("Japan");
+
+set<int>numberSet = Set();
+numbersSet.add(73);
+numbersSet.add(64);
+numbersSet.add(21);
+numbersSet.add(12);
+
+numbersSet.add(73);
+numbersSet.add(73);
+
+print(numbersSet[0]);
+
+numbersSet.contain(73);
+numbersSet.remove(64);
+numbersSet.isEmpty;
+numbersSet.length;
+//numbersSet.clear();
+print("\n");
+
+for(int elements in numberSet){
+print(elements);
+}
+
+print("\n");
+numberSet.forEach((element)=> print(elemet));
+print("\n");
+
+for(int i=0; i<numberSet.length; i++)
+{print(numberSet[i]);
+}
+}
+
