@@ -1,0 +1,17 @@
+//when Drat class is called like a function
+//implementation call() function
+
+
+void main(){
+
+var personOne= Person();
+var msg= personOne(25, "peter");
+print(msg);
+
+}
+
+class person{
+String call(int age, string name){
+return"The name of the person is $name and age is $age";
+}
+}
